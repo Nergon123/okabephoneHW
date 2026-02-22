@@ -1,0 +1,130 @@
+(footprint "Battery connector 3mm nergon"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.89 1.36 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6d7f64f-a82f-49d7-99f2-3243f6df2aed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery connector 3mm nergon"
+		(at -0.89 2.86 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12183386-0de8-4c20-b090-3731285f56b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b386a99a-cb6a-49ee-9489-8bd3a16bd539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce77e7f9-7cd1-4dd7-8c78-19171d4a2777")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.26 6.28)
+		(end 1.64 9.51)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bdc7f588-0a9f-4a21-b01d-a5f21daf33c1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.89 4.36 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "882726ea-eb4b-4194-90e0-d91d882b2d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" smd roundrect
+		(at -4.25 6.71)
+		(size 1.25 1.355)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b2a0a581-ec93-4cd4-9058-d8e9d0fa04bd")
+	)
+	(pad "0" smd roundrect
+		(at -4.25 10.17)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9b339a0a-90a3-43e2-b368-97734e8ed118")
+	)
+	(pad "0" smd roundrect
+		(at -1.25 6.71)
+		(size 1.25 1.355)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "79a9c3c0-4e2e-49f2-9f0c-76b9602abf60")
+	)
+	(pad "0" smd roundrect
+		(at -1.25 10.17)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "75fedd4e-0411-488f-ba3c-f6ebc9b72f53")
+	)
+	(pad "1" smd roundrect
+		(at -5.75 10.17)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "1ea86e0a-ce82-46d4-b8a8-388185ebd889")
+	)
+	(pad "2" smd roundrect
+		(at -2.75 10.17)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "68911d4c-3922-4d81-9996-58518bf96ca5")
+	)
+	(pad "3" smd roundrect
+		(at 0.25 10.17)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e299f7cc-4e53-4a9c-98bf-53bafd460e90")
+	)
+	(embedded_fonts no)
+)

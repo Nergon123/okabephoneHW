@@ -613,6 +613,14 @@
     [
       "e9d3405d-3536-4ebc-8db6-e75908125fac",
       "Root"
+    ],
+    [
+      "41ee46a8-d813-490e-b535-9d8ea207b7f8",
+      "POWER"
+    ],
+    [
+      "8fc5f1cb-84ec-4bac-b8ef-bc0461400e20",
+      "CELLULAR"
     ]
   ],
   "text_variables": {}
