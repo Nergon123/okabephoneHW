@@ -4240,7 +4240,7 @@
 		)
 		(uuid "90a6f1c1-2cf5-417d-a24b-b1518ad49c61")
 	)
-	(label "LoRa Chip"
+	(label "LoRa Module"
 		(at 247.65 81.28 0)
 		(effects
 			(font
