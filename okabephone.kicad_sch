@@ -6713,12 +6713,6 @@
 		(color 0 0 0 0)
 		(uuid "ee6e16ca-c7af-479e-8fd3-b7246ba8df9a")
 	)
-	(junction
-		(at 166.37 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f563cc41-3f64-4353-b773-995e493d04eb")
-	)
 	(no_connect
 		(at 233.68 147.32)
 		(uuid "10418b80-8ea4-40a4-af55-ebdc54f5058a")
@@ -7387,16 +7381,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 102.87) (xy 166.37 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a37af9d-7349-4d24-a871-a1be811aebbb")
-	)
-	(wire
-		(pts
 			(xy 227.33 134.62) (xy 233.68 134.62)
 		)
 		(stroke
@@ -7487,6 +7471,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 105.41) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561bd1d7-c911-4066-b208-a45d966a31b1")
+	)
+	(wire
+		(pts
 			(xy 49.53 165.1) (xy 54.61 165.1)
 		)
 		(stroke
@@ -7554,6 +7548,16 @@
 			(type default)
 		)
 		(uuid "5bf125d8-26b8-4d1c-a042-e3c6e0939cae")
+	)
+	(wire
+		(pts
+			(xy 156.21 105.41) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d510529-8c66-494c-81ab-d9db821a9585")
 	)
 	(wire
 		(pts
@@ -8851,6 +8855,46 @@
 		)
 		(uuid "0b03426b-b04b-4b5d-b4cf-673d8c13a668")
 	)
+	(label "QSPI"
+		(at 133.35 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1180a447-37e0-4ec7-ad82-03c5ff920d6a")
+	)
+	(label "in ESP32 with PSRAM"
+		(at 133.35 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13ec0ef8-3f70-46c5-b801-79f0c4b9ea49")
+	)
+	(label "UART"
+		(at 127 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bf23a29-9afb-461b-bf60-e90f2651d43d")
+	)
+	(label "^^^"
+		(at 133.35 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c11f41b-fdb5-41be-9a28-d9f58d53c3ff")
+	)
 	(label "ROOT"
 		(at 212.09 180.34 0)
 		(effects
@@ -8873,6 +8917,16 @@
 		)
 		(uuid "3fa5c3ae-1e28-4120-9ab8-c90e39740d74")
 	)
+	(label "Those are not usable"
+		(at 133.35 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aa63c27-e4f8-47ec-9630-61114c977a08")
+	)
 	(label "500 mA"
 		(at 57.15 137.16 0)
 		(effects
@@ -8884,6 +8938,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ef6088e-2387-48b1-8529-b407e5f0100d")
+	)
+	(label "PSRAM"
+		(at 133.35 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "708fd073-14f5-43a0-b61b-b132a1fec01d")
 	)
 	(label "I2C pullup"
 		(at 137.16 24.13 270)
@@ -8955,6 +9019,16 @@
 		)
 		(uuid "eb261219-447f-471f-bea5-abcdb70ac751")
 	)
+	(label "I2C"
+		(at 153.67 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecae551e-cacb-4576-a610-e8eb740e718e")
+	)
 	(label "absolute maximum 150mA"
 		(at 20.32 26.67 0)
 		(effects
@@ -8966,6 +9040,16 @@
 			(justify left bottom)
 		)
 		(uuid "f27f8cf2-11a7-467b-ae87-f7569e481e81")
+	)
+	(label "GLOBAL SPI"
+		(at 143.51 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f336396f-18b3-4ee2-8013-16cc1196e421")
 	)
 	(global_label "RTC_ALARM_INT"
 		(shape bidirectional)
@@ -9157,6 +9241,28 @@
 		(uuid "1f7c143b-f426-481d-880a-3d8c6f9f72ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.59 115.3122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape bidirectional)
+		(at 156.21 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2106a0c9-14b2-44f3-9e5a-2d10855a5809")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 113.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,28 +9508,6 @@
 		(uuid "40ec3f08-c147-4b76-9077-33f9c82aaaa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.81 113.8985 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 123.19 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44ea9aff-f3e8-42e1-a12d-7c3c77a15a37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 110.5346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,6 +9873,28 @@
 			)
 		)
 	)
+	(global_label "ESP_EN"
+		(shape input)
+		(at 163.83 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87e201ae-4a31-4880-8727-fca3ff42c4f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 112.9308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CS"
 		(shape bidirectional)
 		(at 219.71 132.08 180)
@@ -10081,6 +10187,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 153.67 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd0dd34c-c358-46ff-9b73-ddac4cac4f3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 113.0746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_CS"
 		(shape bidirectional)
 		(at 53.34 147.32 180)
@@ -10125,28 +10253,6 @@
 			)
 		)
 	)
-	(global_label "SCK"
-		(shape bidirectional)
-		(at 125.73 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c67f9fa0-7297-4ad6-b239-ff4d1cb7b42b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 110.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT_MISO"
 		(shape bidirectional)
 		(at 34.29 147.32 90)
@@ -10182,6 +10288,28 @@
 		(uuid "d3cde7d7-0f02-4c0f-9f8c-104f2e7784cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.29 170.8898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP_EN"
+		(shape input)
+		(at 50.8 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d779beeb-dcf2-4450-8c28-213e14ea7aaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.7392 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
 			(at 69.85 160.02 0)
 			(effects
 				(font
@@ -13191,7 +13319,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 156.21 110.49 180)
+		(at 125.73 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13200,7 +13328,7 @@
 		(fields_autoplaced yes)
 		(uuid "89813e8b-4682-4351-ad4d-68653a97732a")
 		(property "Reference" "#PWR055"
-			(at 156.21 106.68 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,7 +13337,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 156.21 115.57 0)
+			(at 125.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 110.49 0)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 110.49 0)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13235,7 +13363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 156.21 110.49 0)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13247,7 +13375,7 @@
 			(uuid "2676108a-1c0f-4a5f-951d-51f89a932abe")
 		)
 		(instances
-			(project ""
+			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac"
 					(reference "#PWR055")
 					(unit 1)
@@ -13889,7 +14017,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 153.67 110.49 180)
+		(at 123.19 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13897,7 +14025,7 @@
 		(dnp no)
 		(uuid "b2dd9eb0-24d0-48a2-9d69-e2a35112606b")
 		(property "Reference" "#PWR054"
-			(at 153.67 106.68 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +14034,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 150.368 115.824 0)
+			(at 119.888 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13914,7 +14042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 110.49 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13923,7 +14051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 110.49 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13932,7 +14060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 153.67 110.49 0)
+			(at 123.19 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +14072,7 @@
 			(uuid "b82133b1-2fde-4300-b6f2-fab35c9007d9")
 		)
 		(instances
-			(project ""
+			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac"
 					(reference "#PWR054")
 					(unit 1)
@@ -14022,7 +14150,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 153.67 106.68 180)
+		(at 123.19 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14030,7 +14158,7 @@
 		(dnp no)
 		(uuid "b8a8b2d6-06c6-48ea-aecc-0c0096a5ed04")
 		(property "Reference" "F2"
-			(at 153.416 128.016 90)
+			(at 122.936 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14166,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 153.416 121.666 90)
+			(at 122.936 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14046,7 +14174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 101.6 0)
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 106.68 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +14193,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 153.67 106.68 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,7 +14763,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 156.21 106.68 180)
+		(at 125.73 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14643,7 +14771,7 @@
 		(dnp no)
 		(uuid "ccafb063-094e-4a3f-ba60-3c3763264e56")
 		(property "Reference" "F3"
-			(at 155.702 128.27 90)
+			(at 125.222 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14779,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 155.702 122.174 90)
+			(at 125.222 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14659,7 +14787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14669,7 +14797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 106.68 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14678,7 +14806,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 156.21 106.68 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +14992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN20_D10-RA-BK_SUL"
+		(property "Footprint" "connector:CONN20_D10-RA-BK_SUL"
 			(at 123.19 102.87 0)
 			(effects
 				(font
