@@ -5000,7 +5000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 76.2 173.99 0)
 			(effects
 				(font
@@ -5142,7 +5142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 32.512 104.14 90)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 71.12 173.99 0)
 			(effects
 				(font
@@ -5753,7 +5753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -5828,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 95.25 90)
 			(effects
 				(font
@@ -5975,7 +5975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 87.3252 82.55 0)
 			(effects
 				(font
@@ -6053,7 +6053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.452 71.12 90)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.372 43.18 90)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.548 173.99 90)
 			(effects
 				(font
@@ -6421,7 +6421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -6655,7 +6655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PTS526_SM08_SMTR2_LFS:SW_PTS526_SM08_SMTR2_LFS"
 			(at 52.07 52.07 0)
 			(effects
 				(font
@@ -6800,7 +6800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 87.9348 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9728c963-7634-43f3-9402-333bba4438b7")
-		(property "Reference" "BUCK_VBUS"
+		(property "Reference" "BUCK_VBUS1"
 			(at 85.09 72.136 0)
 			(effects
 				(font
@@ -6912,7 +6912,7 @@
 		(instances
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/4fc341b7-aab9-4bf1-942c-802f704f4f3e"
-					(reference "BUCK_VBUS")
+					(reference "BUCK_VBUS1")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bc4a0d7-0fb4-4c00-a6d2-3fd080a0fa17")
-		(property "Reference" "BUCK_BAT"
+		(property "Reference" "BUCK_BAT1"
 			(at 62.992 76.454 0)
 			(effects
 				(font
@@ -6982,7 +6982,7 @@
 		(instances
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/4fc341b7-aab9-4bf1-942c-802f704f4f3e"
-					(reference "BUCK_BAT")
+					(reference "BUCK_BAT1")
 					(unit 1)
 				)
 			)
@@ -7159,7 +7159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.518 107.95 90)
 			(effects
 				(font
@@ -7234,7 +7234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.102 173.99 90)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.738 173.99 90)
 			(effects
 				(font
@@ -7453,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UJ20-C-G-MSMT-TR-68:CUI_UJ20-C-G-MSMT-TR-68"
 			(at 35.56 154.94 0)
 			(effects
 				(font
@@ -8090,7 +8090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.462 81.28 90)
 			(effects
 				(font
@@ -8147,7 +8147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db023dd6-c89e-4327-9b65-a480c2cc2e2a")
-		(property "Reference" "CHRG_VBUS"
+		(property "Reference" "CHRG_VBUS1"
 			(at 25.4 88.646 0)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 		(instances
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/4fc341b7-aab9-4bf1-942c-802f704f4f3e"
-					(reference "CHRG_VBUS")
+					(reference "CHRG_VBUS1")
 					(unit 1)
 				)
 			)
@@ -8217,7 +8217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5860c6f-7726-473d-ad40-a453581aa1ce")
-		(property "Reference" "BUCK_POST"
+		(property "Reference" "BUCK_POST1"
 			(at 136.652 76.454 0)
 			(effects
 				(font
@@ -8272,7 +8272,7 @@
 		(instances
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/4fc341b7-aab9-4bf1-942c-802f704f4f3e"
-					(reference "BUCK_POST")
+					(reference "BUCK_POST1")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 26.3652 102.87 0)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.292 173.99 90)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 71.882 63.5 90)
 			(effects
 				(font
@@ -8531,7 +8531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 41.91 81.28 0)
 			(effects
 				(font
