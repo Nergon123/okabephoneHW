@@ -15837,12 +15837,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VSW"
-			(at 195.58 16.51 0)
+		(property "Value" "+BATT"
+			(at 198.12 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
