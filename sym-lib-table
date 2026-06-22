@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "A7676E")(type "KiCad")(uri "${KIPRJMOD}/A7676E.kicad_sym")(options "")(descr ""))
+  (lib (name "CONMHF4-SMD-G-T")(type "KiCad")(uri "${KIPRJMOD}/parts/CONMHF4-SMD-G-T/CONMHF4-SMD-G-T.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ20-C-G-MSMT-TR-68")(type "KiCad")(uri "${KIPRJMOD}/parts/UJ20-C-G-MSMT-TR-68/UJ20-C-G-MSMT-TR-68.kicad_sym")(options "")(descr ""))
 )

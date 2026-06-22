@@ -6,4 +6,5 @@
   (lib (name "SMF05CT1G")(type "KiCad")(uri "${KIPRJMOD}/parts/SMF05CT1G")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/parts/SN74AXC4T245PWR/footprints.pretty")(options "")(descr ""))
   (lib (name "UJ20-C-G-MSMT-TR-68")(type "KiCad")(uri "${KIPRJMOD}/parts/UJ20-C-G-MSMT-TR-68")(options "")(descr ""))
+  (lib (name "CONMHF4-SMD-G-T")(type "KiCad")(uri "${KIPRJMOD}/parts/CONMHF4-SMD-G-T")(options "")(descr ""))
 )

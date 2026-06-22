@@ -2340,6 +2340,427 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CONMHF4-SMD-G-T"
+				(at -1.524 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CONMHF4-SMD-G-T:TE_CONMHF4-SMD-G-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Linx Technologies Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CREATOR" "DIZAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CONMHF4-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF4-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CONMHF4-SMD-G-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "MHF4 Jack 50 Ohm PCB Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CAD_BUILD" "TE OEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CONMHF4-SMD-G-T_0_0"
+				(polyline
+					(pts
+						(xy 1.524 -1.016) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -3.302) (xy 1.27 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.016) (xy 2.54 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.016) (xy 3.556 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy 3.302 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -3.302) (xy 2.794 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.1275 -0.3175)
+					(end 6.0325 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.1275 -2.8575)
+					(end 6.0325 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:SIM_Card"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4848,6 +5269,12 @@
 		(uuid "4ab0d808-ee27-4b06-819f-9c240abf1928")
 	)
 	(junction
+		(at 16.51 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cbde3ae-a5e0-49fc-9af0-b1da57ee38e5")
+	)
+	(junction
 		(at 63.5 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4864,6 +5291,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54327674-0d55-48c3-819f-14a1f287c01a")
+	)
+	(junction
+		(at 24.13 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b93cbc-631c-4dc7-8c8e-d46db70321ec")
 	)
 	(junction
 		(at 33.02 179.07)
@@ -4996,6 +5429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d5d3745-2d38-44ae-aada-93ae5cf8df36")
+	)
+	(junction
+		(at 24.13 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5d918c-90cc-4baf-8a1f-1beaa242f4a2")
 	)
 	(junction
 		(at 83.82 45.72)
@@ -5483,6 +5922,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 110.49) (xy 26.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1644d59e-0d57-4aa2-bb39-e61acc5e850f")
+	)
+	(wire
+		(pts
 			(xy 83.82 179.07) (xy 86.36 179.07)
 		)
 		(stroke
@@ -5490,6 +5939,16 @@
 			(type default)
 		)
 		(uuid "1725403d-cfe0-46ed-bf03-c7aa5b4058de")
+	)
+	(wire
+		(pts
+			(xy 16.51 114.3) (xy 16.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18548f1e-9edd-4639-b027-5b0e04df0376")
 	)
 	(wire
 		(pts
@@ -5550,6 +6009,16 @@
 			(type default)
 		)
 		(uuid "1ea758f7-0c4b-4b68-a17a-0f4f020529b4")
+	)
+	(wire
+		(pts
+			(xy 24.13 123.19) (xy 24.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214d59ac-eab4-4eac-beb6-32599769216c")
 	)
 	(wire
 		(pts
@@ -5660,6 +6129,16 @@
 			(type default)
 		)
 		(uuid "33478ed0-c86e-47bc-a4a9-e1da53d4ff03")
+	)
+	(wire
+		(pts
+			(xy 13.97 118.11) (xy 16.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ab25f3-27ea-4160-ab28-28bdfb7cddf5")
 	)
 	(wire
 		(pts
@@ -5870,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "54455dd3-8a4b-4dd9-8627-d26bbb645b40")
+	)
+	(wire
+		(pts
+			(xy 33.02 120.65) (xy 33.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549de2f7-9c8d-41ce-b434-b2a34c640f7b")
 	)
 	(wire
 		(pts
@@ -6093,6 +6582,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 111.76) (xy 33.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830b84b6-ebe4-4599-8d18-65bef22be7c1")
+	)
+	(wire
+		(pts
 			(xy 59.69 124.46) (xy 59.69 127)
 		)
 		(stroke
@@ -6220,6 +6719,16 @@
 			(type default)
 		)
 		(uuid "9a042f34-37ad-4d0a-b95c-4b8bbb2cee25")
+	)
+	(wire
+		(pts
+			(xy 24.13 105.41) (xy 24.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3ff354-19f6-480a-ac81-e75e70a1f008")
 	)
 	(wire
 		(pts
@@ -6523,6 +7032,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 114.3) (xy 24.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd571651-cbe0-44c7-b1de-9447376ce86d")
+	)
+	(wire
+		(pts
 			(xy 104.14 179.07) (xy 106.68 179.07)
 		)
 		(stroke
@@ -6693,6 +7212,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 110.49) (xy 26.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18bc4d8-2e24-44ca-8abc-381995b93b25")
+	)
+	(wire
+		(pts
 			(xy 101.6 45.72) (xy 105.41 45.72)
 		)
 		(stroke
@@ -6840,6 +7369,16 @@
 			(type default)
 		)
 		(uuid "f81e93ea-fb57-4f3d-8776-a78bc905e182")
+	)
+	(wire
+		(pts
+			(xy 16.51 118.11) (xy 16.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa483479-2c1b-4ebf-94bd-1ecef6f49d92")
 	)
 	(wire
 		(pts
@@ -7543,6 +8082,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 13.97 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0624d73f-7e17-4bf9-a66c-cc7f5997864f")
+		(property "Reference" "#PWR043"
+			(at 7.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 10.16 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c759c67-84d3-48e0-8a80-bbf40ed555f1")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 220.98 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8059,6 +8665,72 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1806c7b8-3793-4c8d-a5b1-cdb8c3e9e271")
+		(property "Reference" "#PWR036"
+			(at 33.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f21e27-f1bf-4e5f-867b-9156a4acee1a")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9745,6 +10417,233 @@
 		)
 	)
 	(symbol
+		(lib_id "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T")
+		(at 24.13 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621408a8-fb3e-46c6-911c-c03b2fb0164a")
+		(property "Reference" "J8"
+			(at 29.21 100.5271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CONMHF4-SMD-G-T"
+			(at 29.21 103.0671 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CONMHF4-SMD-G-T:TE_CONMHF4-SMD-G-T"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Linx Technologies Inc."
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6mm"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF4-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF4-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CONMHF4-SMD-G-T"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MHF4 Jack 50 Ohm PCB Surface Mount"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CAD_BUILD" "TE OEM"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d16673a3-62df-47fb-a7b0-13323c78b10b")
+		)
+		(pin "4"
+			(uuid "46fb7d98-4ba1-4f0a-b52f-7a7ef740598a")
+		)
+		(pin "3"
+			(uuid "fc3ca034-11b7-42c9-ab66-b7c861dff6b0")
+		)
+		(pin "1"
+			(uuid "f5a83f3c-70d2-4e3c-9706-6291ddb4164f")
+		)
+		(instances
+			(project ""
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 41.91 0)
 		(unit 1)
@@ -9808,6 +10707,74 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 20.32 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9e9afa-6b43-4e12-9297-f2fce7ea3383")
+		(property "Reference" "C48"
+			(at 20.32 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 20.32 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 24.13 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 20.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a36c555-8d58-4b2e-bfd0-240f224ad276")
+		)
+		(pin "1"
+			(uuid "3e295ef0-dc5e-4217-b478-756c28da2f19")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -11003,6 +11970,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 24.13 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2c25db-3dde-4d8d-974c-c84bdaebe996")
+		(property "Reference" "R39"
+			(at 26.67 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 26.67 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 22.352 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b62551c8-8e3f-40cb-8775-270a65b510ee")
+		)
+		(pin "2"
+			(uuid "d948f5f5-d82e-4dd0-a9d5-ed2929a82853")
+		)
+		(instances
+			(project ""
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 93.98 0)
 		(unit 1)
@@ -11195,6 +12232,74 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 20.32 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e3f00cd-afb2-4543-9e8b-2917dc20f394")
+		(property "Reference" "C47"
+			(at 20.32 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 20.32 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 24.13 113.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 20.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c166284a-5f8d-42ca-840a-f99248694076")
+		)
+		(pin "1"
+			(uuid "662f1929-2655-48ae-bd31-1bc9f2321cab")
+		)
+		(instances
+			(project ""
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -12639,6 +13744,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 24.13 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23ac741-dde2-4c5b-a50b-af49d12238c2")
+		(property "Reference" "R40"
+			(at 26.67 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 26.67 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 22.352 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d9bd48-27d3-4ec9-b36b-e394186149d2")
+		)
+		(pin "2"
+			(uuid "9b746e1c-0ff8-4eda-b66b-90102a515edc")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 209.55 119.38 90)
 		(unit 1)
@@ -12906,6 +14081,76 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 33.02 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f99c8ab4-7314-4df1-b05c-1d11173e8108")
+		(property "Reference" "ANT_GND1"
+			(at 35.814 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 35.56 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 33.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1699fb06-2b27-48e3-8d23-2ce8180fd903")
+		)
+		(pin "1"
+			(uuid "9337d474-b9f8-49d4-9a2d-b4425769301f")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "ANT_GND1")
 					(unit 1)
 				)
 			)
