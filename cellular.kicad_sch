@@ -2761,7 +2761,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:SIM_Card"
+		(symbol "Connector:SIM_Card_Shielded"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2774,7 +2774,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "SIM_Card"
+			(property "Value" "SIM_Card_Shielded"
 				(at -1.27 10.16 0)
 				(effects
 					(font
@@ -2828,10 +2828,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SIM_Card_0_1"
+			(symbol "SIM_Card_Shielded_0_1"
 				(polyline
 					(pts
-						(xy -10.16 8.89) (xy 15.24 8.89) (xy 15.24 -3.81) (xy 12.7 -6.35) (xy -10.16 -6.35) (xy -10.16 8.89)
+						(xy -10.16 8.89) (xy -10.16 -8.89) (xy 12.7 -8.89) (xy 15.24 -6.35) (xy 15.24 8.89) (xy -10.16 8.89)
 					)
 					(stroke
 						(width 0.254)
@@ -2908,7 +2908,7 @@
 					)
 				)
 			)
-			(symbol "SIM_Card_1_1"
+			(symbol "SIM_Card_Shielded_1_1"
 				(pin power_in line
 					(at -12.7 7.62 0)
 					(length 2.54)
@@ -3010,6 +3010,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5239,6 +5257,12 @@
 		(uuid "384081df-3481-45ab-9990-26eaa34a3939")
 	)
 	(junction
+		(at 50.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395718d5-753f-466c-ae18-0f56f529f818")
+	)
+	(junction
 		(at 83.82 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5363,6 +5387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7307983c-ac0b-4526-8d2e-10b1395d9b80")
+	)
+	(junction
+		(at 50.8 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76643f19-4068-42ef-8ee5-60cf51927522")
 	)
 	(junction
 		(at 48.26 179.07)
@@ -6342,6 +6372,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 17.78) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5367d1ba-2d43-4e32-b617-f5d96a84f50a")
+	)
+	(wire
+		(pts
 			(xy 161.29 124.46) (xy 161.29 127)
 		)
 		(stroke
@@ -6559,6 +6599,16 @@
 			(type default)
 		)
 		(uuid "7de2c26e-806f-4d40-9523-3c952090f90e")
+	)
+	(wire
+		(pts
+			(xy 49.53 64.77) (xy 50.8 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e982694-4189-4578-b7a1-0a449391abfd")
 	)
 	(wire
 		(pts
@@ -6799,6 +6849,16 @@
 			(type default)
 		)
 		(uuid "a53c0786-1d0b-4081-ac85-a5737b919e35")
+	)
+	(wire
+		(pts
+			(xy 49.53 17.78) (xy 50.8 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a571eb59-87ca-46e3-a215-679b59d041b4")
 	)
 	(wire
 		(pts
@@ -7359,6 +7419,16 @@
 			(type default)
 		)
 		(uuid "f50e6bc6-f915-495a-a640-5b8fff75659c")
+	)
+	(wire
+		(pts
+			(xy 50.8 64.77) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8044625-024f-49be-8388-b06ee7ed5a74")
 	)
 	(wire
 		(pts
@@ -9205,7 +9275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SIM_Card")
+		(lib_id "Connector:SIM_Card_Shielded")
 		(at 36.83 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9215,7 +9285,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d1fa4c6-b11c-4b8b-91a6-ac3c1bfec8d1")
 		(property "Reference" "J4"
-			(at 34.29 60.96 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9293,7 @@
 			)
 		)
 		(property "Value" "SIM_Card"
-			(at 34.29 63.5 0)
+			(at 34.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,6 +9344,9 @@
 		)
 		(pin "7"
 			(uuid "f46681ed-dd5c-4760-940a-3e9559d2c746")
+		)
+		(pin "SH"
+			(uuid "6679f55b-4378-4916-a82a-4029a5b4aa67")
 		)
 		(instances
 			(project ""
@@ -9814,7 +9887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:SIM_Card")
+		(lib_id "Connector:SIM_Card_Shielded")
 		(at 36.83 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9824,7 +9897,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f812831-1623-4b29-88cc-bff3f88eb040")
 		(property "Reference" "J2"
-			(at 34.29 13.97 0)
+			(at 34.29 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9905,7 @@
 			)
 		)
 		(property "Value" "SIM_Card"
-			(at 34.29 16.51 0)
+			(at 34.29 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,6 +9956,9 @@
 		)
 		(pin "7"
 			(uuid "76b756d7-efd2-4d3b-bdeb-2bc66a05244a")
+		)
+		(pin "SH"
+			(uuid "db038a2b-874b-473c-a324-817e38dfa297")
 		)
 		(instances
 			(project "okabephone"
