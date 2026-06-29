@@ -5155,12 +5155,6 @@
 		(uuid "04c3f340-52c4-452a-883f-49ae8cd99de8")
 	)
 	(junction
-		(at 72.39 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "069f6a5b-450a-4155-8e72-e8df34d87389")
-	)
-	(junction
 		(at 86.36 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5407,6 +5401,12 @@
 		(uuid "797119d8-cb4e-469e-9941-8575c1ff7b93")
 	)
 	(junction
+		(at 74.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e30e96e-ac74-40b7-b1de-220ac8bf1362")
+	)
+	(junction
 		(at 101.6 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5441,12 +5441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c62725-c9a5-49c5-979b-d79387f8a35b")
-	)
-	(junction
-		(at 74.93 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "951dd882-b8a9-4c4c-8cd6-39c5fd2171fa")
 	)
 	(junction
 		(at 161.29 107.95)
@@ -5489,6 +5483,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4fbbc43-b0f7-47c2-9ae6-ae39db4b4d8f")
+	)
+	(junction
+		(at 72.39 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a58d414d-b93d-40c0-a274-cd9a33d92e5f")
 	)
 	(junction
 		(at 101.6 80.01)
@@ -5693,10 +5693,6 @@
 		(uuid "498791d4-7a41-416d-b660-9fa08110cc97")
 	)
 	(no_connect
-		(at 149.86 127)
-		(uuid "516c711e-861f-4ca8-a821-a55386686d3a")
-	)
-	(no_connect
 		(at 133.35 127)
 		(uuid "55cb0bcb-263f-4ca6-940b-cc4bfb09b1a5")
 	)
@@ -5715,14 +5711,6 @@
 	(no_connect
 		(at 21.59 127)
 		(uuid "8322230e-790c-4653-9363-af9d7b931daf")
-	)
-	(no_connect
-		(at 152.4 127)
-		(uuid "951e9273-6440-45a6-a98d-e548984f75ec")
-	)
-	(no_connect
-		(at 144.78 127)
-		(uuid "9bb7302d-58d9-44c3-9b1c-03b19f06d0b9")
 	)
 	(no_connect
 		(at 176.53 127)
@@ -5753,10 +5741,6 @@
 		(uuid "c727c954-67d0-4cb4-b525-f836eb8e82f7")
 	)
 	(no_connect
-		(at 147.32 127)
-		(uuid "d0501862-0f8e-4950-88eb-421748909d2a")
-	)
-	(no_connect
 		(at 66.04 82.55)
 		(uuid "d9f693c0-666e-4ac3-a126-5c7c9c25e0b9")
 	)
@@ -5779,16 +5763,6 @@
 	(no_connect
 		(at 90.17 127)
 		(uuid "faadee04-e4b5-4f44-bbca-f9ad96b93dca")
-	)
-	(wire
-		(pts
-			(xy 74.93 109.22) (xy 82.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00dc8b91-1ccf-433b-8b1d-ac22e31db14b")
 	)
 	(wire
 		(pts
@@ -5839,6 +5813,16 @@
 			(type default)
 		)
 		(uuid "071f40a9-b53c-4cf9-b3e2-9e2809160bd8")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0812b4f2-55e3-4b2b-8972-5f8aaac3b36b")
 	)
 	(wire
 		(pts
@@ -5929,6 +5913,16 @@
 			(type default)
 		)
 		(uuid "14be0cae-9b3c-469e-8cea-bbd6cb332f9c")
+	)
+	(wire
+		(pts
+			(xy 149.86 121.92) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158d0494-63ac-44d6-8da2-c0ecddeb6162")
 	)
 	(wire
 		(pts
@@ -6402,6 +6396,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 124.46) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794f83f-a06c-46f8-95f8-2b93a2a2571e")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cbed8c-a377-4172-a391-d575a3c0f20b")
+	)
+	(wire
+		(pts
 			(xy 49.53 80.01) (xy 55.88 80.01)
 		)
 		(stroke
@@ -6489,6 +6503,26 @@
 			(type default)
 		)
 		(uuid "679dc7b3-4b34-4da0-8844-587d2dcab600")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6870f190-11a5-4620-9d32-e127e464cc51")
+	)
+	(wire
+		(pts
+			(xy 144.78 121.92) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e3c6b0-a198-445e-84c2-2e7b1ee9be9b")
 	)
 	(wire
 		(pts
@@ -6612,16 +6646,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 74.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb7b101-6323-4ce9-9326-e1c7be1e9606")
-	)
-	(wire
-		(pts
 			(xy 63.5 67.31) (xy 78.74 67.31)
 		)
 		(stroke
@@ -6672,6 +6696,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 124.46) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cc2e1f-ed18-466d-84f0-23002f7ce25d")
+	)
+	(wire
+		(pts
 			(xy 71.12 179.07) (xy 73.66 179.07)
 		)
 		(stroke
@@ -6679,6 +6713,16 @@
 			(type default)
 		)
 		(uuid "8aeaee86-3c43-4d85-b404-9e73ad4301c3")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d224f1d-5768-42dd-915a-019d4eb6c468")
 	)
 	(wire
 		(pts
@@ -6912,6 +6956,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 124.46) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc45911-9c6b-4a1b-b389-31f6173250f9")
+	)
+	(wire
+		(pts
 			(xy 184.15 118.11) (xy 184.15 116.84)
 		)
 		(stroke
@@ -6942,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 106.68) (xy 69.85 127)
+			(xy 69.85 124.46) (xy 69.85 127)
 		)
 		(stroke
 			(width 0)
@@ -6959,6 +7013,16 @@
 			(type default)
 		)
 		(uuid "ae8e2815-2856-4df2-ac23-ada691a0c7f0")
+	)
+	(wire
+		(pts
+			(xy 147.32 121.92) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04bec8f-c18a-4d37-a7d6-09ad98c5fd41")
 	)
 	(wire
 		(pts
@@ -6979,6 +7043,16 @@
 			(type default)
 		)
 		(uuid "b554a1c5-1cca-42c4-ba50-b8d6bfb7615a")
+	)
+	(wire
+		(pts
+			(xy 73.66 124.46) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b831a98a-4f98-44f2-b019-dba2e1e61e98")
 	)
 	(wire
 		(pts
@@ -7032,7 +7106,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 106.68) (xy 67.31 127)
+			(xy 67.31 124.46) (xy 67.31 127)
 		)
 		(stroke
 			(width 0)
@@ -7122,16 +7196,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16560c2-d0cf-469f-9ac8-bebf800b1d43")
-	)
-	(wire
-		(pts
 			(xy 261.62 25.4) (xy 261.62 33.02)
 		)
 		(stroke
@@ -7189,16 +7253,6 @@
 			(type default)
 		)
 		(uuid "d5956573-a444-4a2a-b727-6c1aa26e29e8")
-	)
-	(wire
-		(pts
-			(xy 74.93 105.41) (xy 74.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7eb458c-fd3b-4400-8ea2-da3a37362606")
 	)
 	(wire
 		(pts
@@ -7312,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 82.55 106.68)
+			(xy 73.66 106.68) (xy 82.55 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8663,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 74.93 105.41 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8617,7 +8671,7 @@
 		(dnp no)
 		(uuid "15c5b5e5-a239-4f81-8e53-ae911d9f38ad")
 		(property "Reference" "EAR_P1"
-			(at 74.93 99.822 90)
+			(at 74.93 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8680,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 77.47 103.3779 0)
+			(at 77.47 122.4279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +8690,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 80.01 105.41 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8645,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 105.41 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8708,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 74.93 105.41 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,6 +9193,73 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "290879e7-baee-4865-825e-4a6a02f11d06")
+		(property "Reference" "PCM_CLK1"
+			(at 152.654 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95929245-222e-4baf-9d25-798470b8687e")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "PCM_CLK1")
 					(unit 1)
 				)
 			)
@@ -10041,7 +10162,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 106.68 0)
+		(at 72.39 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10049,7 +10170,7 @@
 		(dnp no)
 		(uuid "500f1e27-738b-4bb8-80a6-0cacbd69916a")
 		(property "Reference" "EAR_N1"
-			(at 72.39 101.092 90)
+			(at 72.39 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10179,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 74.93 104.6479 0)
+			(at 74.93 122.4279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10189,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 77.47 106.68 0)
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 106.68 0)
+			(at 77.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,7 +10207,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 106.68 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,6 +10904,73 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e0bd2a-cbf7-4317-8e9a-a7e9237e5283")
+		(property "Reference" "PCM_DI1"
+			(at 147.32 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5831b01b-d916-429c-8fbb-ea5057e0cbeb")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "PCM_DI1")
 					(unit 1)
 				)
 			)
@@ -12183,7 +12371,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 106.68 0)
+		(at 69.85 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12191,7 +12379,7 @@
 		(dnp no)
 		(uuid "9b6d9d12-fd03-42ef-bae8-86f791d4a170")
 		(property "Reference" "MIC_P1"
-			(at 69.85 101.092 90)
+			(at 69.85 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,7 +12388,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 72.39 104.6479 0)
+			(at 72.39 122.4279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,7 +12398,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 74.93 106.68 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +12407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 106.68 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +12416,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 106.68 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,6 +12564,73 @@
 			(project ""
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a36499db-2d76-4510-9616-76f3e69b8b4e")
+		(property "Reference" "PCM_S1"
+			(at 149.86 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33aa04a2-42b8-49f4-a22e-bd6fc0170dcc")
+		)
+		(instances
+			(project "okabephone"
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "PCM_S1")
 					(unit 1)
 				)
 			)
@@ -12650,7 +12905,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 106.68 0)
+		(at 67.31 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12658,7 +12913,7 @@
 		(dnp no)
 		(uuid "b33081b0-6cc0-4906-940f-d492bf137f41")
 		(property "Reference" "MIC_N1"
-			(at 67.31 101.092 90)
+			(at 67.31 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12922,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 69.85 104.6479 0)
+			(at 69.85 122.4279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12932,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 72.39 106.68 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,7 +12941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 106.68 0)
+			(at 72.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12950,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 106.68 0)
+			(at 67.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,6 +13708,73 @@
 			(project "okabephone"
 				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dae46cd0-c0fd-492f-836a-875e8afdaa50")
+		(property "Reference" "PCM_DO1"
+			(at 144.78 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 131.572 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ed2448-f2df-42d6-95f6-f96d63415bb4")
+		)
+		(instances
+			(project ""
+				(path "/e9d3405d-3536-4ebc-8db6-e75908125fac/a39731b2-2fd6-450d-97f7-291318574b18"
+					(reference "PCM_DO1")
 					(unit 1)
 				)
 			)
